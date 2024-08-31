@@ -79,7 +79,7 @@ public class AuthorService {
 	 * @return Colección de objetos de AuthorEntity.
 	 */
 	@Transactional
-	public List<AuthorEntity> getAuthors() {
+	public List<AuthorEntity> getAuthors("nombre de la entidad") {
 		log.info("Inicia proceso de consultar todos los autores");
 		return authorRepository.findAll();
 	}
