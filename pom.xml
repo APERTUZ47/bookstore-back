@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>co.edu.uniandes.dse</groupId>
-	<artifactId>bookstore</artifactId>
+	<artifactId>bookstore-back</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>bookstore</name>
+	<name>bookstore-back</name>
 	<description>Backend project for BookStore</description>
 	<packaging>jar</packaging>
 	<properties>
